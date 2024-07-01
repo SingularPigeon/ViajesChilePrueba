@@ -16,9 +16,7 @@ $("a").click(function (event){
         {
 
         scrollTop: $(idTag).offset().top
-    },
-1000, //tiempo que toma en moverse
-// acción al terminar
+    },1000, 
 function () {
     window.location.hash = idTag
 } 
