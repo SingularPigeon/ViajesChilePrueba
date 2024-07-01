@@ -5,9 +5,7 @@ body {
 html {
   scroll-behavior: smooth;
 }
-.logo-nav{
-    width:40px;
-}
+/* Estilos Fuente Kanit de Google Font */
 
 .kanit-thin {
     font-family: "Kanit", sans-serif;
@@ -44,3 +42,19 @@ html {
     font-weight: 600;
     font-style: normal;
   }
+
+  /* NavBar */
+.logo-nav{
+  width:40px;
+}
+
+/* Estilos para card sección destacados */
+  .zoom {
+    transition: transform .2s; /* Animation */
+  }
+  
+  .zoom:hover {
+    transform: scale(1.02);
+  }
+  
+  
